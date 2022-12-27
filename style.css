@@ -1,0 +1,244 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+    font-weight: 100;
+}
+
+
+
+
+
+
+.sidebaroption{
+    display: flex;
+    align-items: center;
+     cursor: pointer;
+     font-family: 'Syne', sans-serif;
+}
+.sidebaroption .material-symbols-outlined,
+.fa-twitter{
+    padding: 10px;
+    
+}
+.sidebaroption.h2{
+    color: #0f1419;
+    font-size:20px ;
+    margin-right:20px ;
+    font-weight: lighter;
+
+}
+.sidebaroption:hover{
+    background-color: rgb(224, 222, 222);
+    border-radius: 30px;
+}
+.tweet{
+    width:100% ;
+    background-color: rgb(60, 156, 235);
+    border: none;
+    color: white;
+    font-weight: 900;
+    border-radius: 30px;
+    height: 50px;
+    margin-top:20px ;
+}
+.tweet:hover{
+    background-color: rgb(52, 176, 218);
+}
+body{
+    display: flex;
+    height: 100vh;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sidebar{
+    border-right: 1px solid rgb(204, 203, 203);
+    flex: 0.2;
+    min-width: 250px;
+    margin-top: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 700px;
+    
+}
+.fa-twitter{
+    color: rgb(60, 156, 235);
+    font-size:30px ;
+}
+
+.feed{
+    flex: 0.5;
+    border-right: 1px solid rgb(204, 203, 203) ;
+    min-width:fit-content;
+    overflow-y: scroll;
+    
+}
+
+.feedheader{
+    
+    margin-left:20px ;
+    padding: auto;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+
+    
+}
+.feed::-webkit-scrollbar{
+    display: none;
+}
+
+.tweetinput img{
+    border-radius: 50%;
+    width: 50px;
+}
+.tweetbox{
+    padding-bottom:10px ;
+    padding-right: 10px;
+    border-bottom: 1px solid rgb(204, 203, 203) ;
+    
+}
+.tweetbox form{
+    display: flex;
+    flex-direction: column;
+}
+.tweetinput{
+    display: flex;
+    padding: 20px;
+
+}
+.tweetinput input{
+    flex: 1;
+    margin-left: 20px;
+    font-size: 20px;
+    border: none;
+
+}
+.tweetboxbtn{
+    width:90px ;
+    background-color: rgb(86, 166, 231);
+    border: none;
+    color: white;
+    font-weight: 900;
+    border-radius: 30px;
+    height: 40px;
+    margin-top:20px ;
+    margin-left: auto;
+    
+    
+}
+.material-symbols-outlined.icons {
+    display: flex;
+    color: rgb(86, 166, 231); 
+    margin-top:20px ;
+    margin-left:89px;
+    
+}
+.show{
+    width:100% ;
+    height: 50px;
+    border-bottom: 1px solid rgb(204, 203, 203) ;
+    text-align: center;
+    padding:12px;
+    font-family: 'Syne', sans-serif;
+    color: rgb(45, 170, 219);
+    font-size: 20px;
+}
+
+.post{
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid gray;
+    padding-bottom:10px ;
+}
+.postimg{
+
+    padding: 10px;
+
+
+}
+.postbody img{
+    width: 400px;
+    object-fit: contain;
+    border-radius: 20px;
+
+}
+.postfooter{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 12px;
+    color: gray;
+
+
+}
+.postbadge{
+    font-size:15px ;
+    color:rgb(45, 170, 219);
+    margin-right:5px ;
+}
+.postheaderverify{
+    font-weight: 600;
+    font-size:12px ;
+    color: gray;
+
+}
+.postheadertext{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.postheaderdescrip{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.postbody{
+    flex: 1;
+    padding: 10px;
+    font-family:'Syne', sans-serif; 
+
+}
+.widgets{
+    flex: 0.3;
+}
+.widgetinput{
+    display:flex;
+    align-items: center;
+    background-color: rgb(236, 236, 236);
+    padding: 10px;
+    border-radius:20px ;
+    margin-top: 10px;
+    margin-left: 20px;
+    
+
+}
+.widgetinput input{
+    margin-left: 20px;
+    font-size: 20px;
+    border: none;
+    background-color: rgb(236, 236, 236);
+
+
+}
+.widgetcontainer{
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: rgb(236, 236, 236);
+    border-radius: 20px;
+    
+}
+.widgetcontainer h2{
+    font-weight: 700;
+    font-family:  sans-serif;
+}
+#monster{
+    color: rgb(86, 166, 231); ;
+}
+
+
+
+
+
+
